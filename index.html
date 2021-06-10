@@ -18,14 +18,29 @@
             <br>
             <br>
             <br>
-           <label>Mom</label>
+           <label class="mom">Mom</label>
            <hr>
-           <label>Dad</label>
+           <label class="dad">Dad</label>
            <hr>
-           <label>Me</label>
-          
-           <div class="camera" style="height: 450px; width: 500px;"></div>
-           <div class="result" style="height: 450px; width: 500px;"></div>
+           <label class="me">Me</label>
+           <label>webcam view</label
+        <div id="camera"></div>
+        <br>
+        <br>
+           <div id="result" ></div>
+           <br>
+           <br>
+           <button onclick="tae_snaPshot();" class="btn btn-info">Capture Image</button>
+           <br>
+           <br>
+           <button onclick="check()" class="btn btn-warning">Identify Image</button>
+           <br>
+           <br>
+           <p style="font-size: 22px;">Object <span id="image"></span></p>
+           <p style="font-size: 22px;">accuracy <span id="imaget"></span></p>
+
         </center>
     </body>
+<br>  
+<script src="main.js"></script> 
 </html>
